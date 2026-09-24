@@ -99,8 +99,17 @@ rounding on rotated footprints, not from real geometry changes.
 ERC reports only `lib_symbol_issues`, because the `hubimu` symbols are embedded in the schematic
 rather than installed as a library.
 
+## BNO055 datasheet check
+
+Checked against Bosch BST-BNO055-DS000-18 (rev 1.8, Oct 2021); page numbers are the datasheet's own:
+
+- **Reserved pins:** Table 5-1 (p. 106) marks PIN1, 12, 13, 15, 16, 21-24 and BL_IND (10) as "Do not connect". All are unconnected here.
+- **Protocol/address pins:** PS1, PS0, COM2 and COM3 are tied to GND for I2C at 0x28 (Tables 4-4/4-5, p. 99; PS pins must not float).
+- **XIN32/XOUT32:** left open for the internal clock (sec. 5.5.2, p. 111; internal clock tolerance up to ±3%).
+- **CAP (9):** Fig. 9 (p. 107) shows 120 nF. C8 is 100 nF because there is no 120 nF JLCPCB basic part, and the figure's values are "typical example" only (footnote 9, p. 110).
+- **nBOOT_LOAD_PIN (4):** Fig. 9 shows an optional 10k pull-up. Here it is tied directly to +3V3, so the part always boots the application (sec. 3.10, p. 51). The BNO055's own firmware cannot be updated on this board.
+
 ## Open items
 
 - Confirm J1's pin order against the hub's header (see above).
-- Confirm the BNO055's PIN1 and reserved pins (12, 13, 15, 16, 21-24) against Bosch's pin table. They are currently unconnected.
 - MCU decoupling is 100 nF on VDD and VDDA, plus 4.7 uF at the LDO output. ST's usual guidance also suggests 1 uF + 10 nF on VDDA.

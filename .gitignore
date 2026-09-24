@@ -8,3 +8,6 @@ fp-info-cache
 
 # OS
 .DS_Store
+
+# Vendor datasheets (copyrighted)
+bst-bno055-ds000.pdf
