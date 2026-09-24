@@ -20,19 +20,24 @@ USB device that bridges to a Bosch BNO055 9-axis IMU over I2C.
 
 ## Circuit
 
-| Ref | Part | Role |
-|---|---|---|
-| U1 | STM32F042F6P6 (TSSOP-20) | Crystal-less USB FS device, USB-to-I2C bridge |
-| U2 | BNO055 (LGA-28) | 9-axis IMU, I2C mode (PS0 = PS1 = GND), address 0x28 (COM3 = GND) |
-| U3 | AP2112K-3.3 (SOT-23-5) | 5 V to 3.3 V LDO, the only heat source on the board |
-| J1 | 1x4 2.54 mm header | Connection to the hub |
-| J2 | 2x3 1.27 mm header | SWD programming/debug |
-| D1 + R5 | Red 0402 LED + 1k | Status LED on PA3 |
-| R3, R4 | 4.7k | I2C pull-ups |
-| R2 | 10k | BNO055 nRESET pull-up |
-| R1 / C3 | 10k / 100 nF | BOOT0 pull-down / NRST filter |
-| C1 / C2 | 1 uF / 4.7 uF | LDO input / output |
-| C4-C8 | 100 nF | Decoupling (U1 VDD, U1 VDDA, U2 VDD, U2 VDDIO, U2 CAP) |
+| Ref | Part | JLCPCB # (basic) | Role |
+|---|---|---|---|
+| U1 | STM32F042F6P6 (TSSOP-20) | - (not basic) | Crystal-less USB FS device, USB-to-I2C bridge |
+| U2 | BNO055 (LGA-28) | - (not basic) | 9-axis IMU, I2C mode (PS0 = PS1 = GND), address 0x28 (COM3 = GND) |
+| U3 | XC6206P332MR (SOT-23-3) | C5446 | 5 V to 3.3 V LDO, 200 mA (pins: 1 VSS, 2 VOUT, 3 VIN), the only heat source |
+| J1 | 1x4 2.54 mm header | - (hand-solder) | Connection to the hub |
+| J2 | 2x3 1.27 mm header | - (hand-solder) | SWD programming/debug |
+| D1 | Red LED, 0603 (KT-0603R) | C2286 | Status LED on PA3 |
+| R5 | 1k 0402 | C11702 | LED resistor (~1.3 mA) |
+| R3, R4 | 4.7k 0402 | C25900 | I2C pull-ups |
+| R1, R2 | 10k 0402 | C25744 | BOOT0 pull-down, BNO055 nRESET pull-up |
+| C1 | 1 uF 0402, 25 V X5R | C52923 | LDO input (+5V) |
+| C2 | 4.7 uF 0402, 10 V X5R | C23733 | LDO output (+3V3) |
+| C3-C8 | 100 nF 0402, 16 V X7R | C1525 | NRST filter; decoupling (U1 VDD, U1 VDDA, U2 VDD, U2 VDDIO, U2 CAP) |
+
+Every assembled part has a `JLCPCB Part #` field in the schematic and PCB, taken from
+[JLCPCB's basic parts library](https://jlcpcb.com/parts/basic_parts). U1, U2, J1 and J2
+have the field left blank: the ICs aren't basic parts, and the headers are fitted by hand.
 
 ### J1 - hub connector (0.1" pitch)
 
@@ -64,7 +69,7 @@ This is a custom pinout, not a standard ARM SWD connector, so an adapter or cabl
 | I2C1 SDA / SCL | PF0 / PF1 (AF1) |
 | BNO055 INT | PA5 (pin 11), EXTI |
 | BNO055 nRESET | PA6 (pin 12), drive low to reset (10k pull-up on board) |
-| Status LED | PA3 (pin 9), active high, ~1.3 mA |
+| Status LED | PA3 (pin 9), active high, ~1.3 mA (red 0603 LED + 1k) |
 | SWD | PA13 / PA14 |
 
 Use the internal HSI48 clock with CRS synced to USB SOF. There is no crystal, and the BNO055's 32 kHz crystal pins are left open (internal clock).
@@ -88,7 +93,7 @@ Use the internal HSI48 clock with CRS synced to USB SOF. There is no crystal, an
 ## Verification status
 
 The final DRC (`drc_stage5.rpt`) shows **0 errors and 0 unconnected pads**. The remaining items are
-`lib_footprint_mismatch` warnings on the 0402 and LGA footprints. They come from KiCad re-save
+`lib_footprint_mismatch` warnings on the 0402, SOT-23-3 and LGA footprints. They come from KiCad re-save
 rounding on rotated footprints, not from real geometry changes.
 
 ERC reports only `lib_symbol_issues`, because the `hubimu` symbols are embedded in the schematic
