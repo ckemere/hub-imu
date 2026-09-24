@@ -108,6 +108,8 @@ Checked against Bosch BST-BNO055-DS000-18 (rev 1.8, Oct 2021); page numbers are 
 - **CAP (9):** Fig. 9 (p. 107) shows 120 nF. C8 is 100 nF because there is no 120 nF JLCPCB basic part, and the figure's values are "typical example" only (footnote 9, p. 110).
 - **nBOOT_LOAD_PIN (4):** Fig. 9 shows an optional 10k pull-up. Here it is tied directly to +3V3, so the part always boots the application (sec. 3.10, p. 51). The BNO055's own firmware cannot be updated on this board.
 
-## Open items
+## Design decisions
 
-- MCU decoupling is 100 nF on VDD and VDDA, plus 4.7 uF at the LDO output. ST's usual guidance also suggests 1 uF + 10 nF on VDDA.
+- MCU decoupling is 100 nF each on VDD and VDDA, plus 4.7 uF at the LDO output on the same short +3V3 net. ST's usual guidance also suggests 1 uF + 10 nF on VDDA. This was judged unnecessary here: the supply traces are short, and the ADC is not used for anything precision-critical.
+
+There are no open items.
