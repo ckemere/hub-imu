@@ -48,8 +48,7 @@ have the field left blank: the ICs aren't basic parts, and the headers are fitte
 | 3 | USB D+ |
 | 4 | GND |
 
-**Check this pin order against the hub's downstream-port header before ordering.**
-It has not been verified against the specific hub listed above.
+This pin order has been checked against the hub's downstream-port header.
 
 ### J2 - SWD (2x3, 1.27 mm)
 
@@ -111,5 +110,4 @@ Checked against Bosch BST-BNO055-DS000-18 (rev 1.8, Oct 2021); page numbers are 
 
 ## Open items
 
-- Confirm J1's pin order against the hub's header (see above).
 - MCU decoupling is 100 nF on VDD and VDDA, plus 4.7 uF at the LDO output. ST's usual guidance also suggests 1 uF + 10 nF on VDDA.
