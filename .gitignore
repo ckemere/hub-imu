@@ -1,0 +1,10 @@
+# KiCad local / transient files
+*-backups/
+_autosave-*
+~*.lck
+*.lck
+fp-info-cache
+*.kicad_prl
+
+# OS
+.DS_Store
