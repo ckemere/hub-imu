@@ -16,3 +16,6 @@ bst-bno055-ds000.pdf
 production/*
 !production/hub_imu.zip
 fabrication-toolkit-options.json
+
+# Original photos (full size, contain location metadata)
+temp_pictures/

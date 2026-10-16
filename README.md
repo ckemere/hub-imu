@@ -15,6 +15,12 @@ USB device that bridges to a Bosch BNO055 9-axis IMU over I2C.
 
 The renders come from KiCad's 3D viewer. The J1 and J2 headers are marked do-not-populate (hand-soldered), so they don't appear.
 
+### Photos
+
+| Assembled module | Next to an FE1.1S hub | Stacked onto the hub |
+|---|---|---|
+| ![Assembled hub_imu module](images/photo_module.jpg) | ![hub_imu module beside an FE1.1S hub board](images/photo_module_and_hub.jpg) | ![hub_imu module soldered onto the hub](images/photo_assembled.jpg) |
+
 ## Contents
 
 | File | What it is |
@@ -24,7 +30,7 @@ The renders come from KiCad's 3D viewer. The J1 and J2 headers are marked do-not
 | `stage1.svg` ... `stage5.svg` | Layout renders (F.Cu, B.Cu, F.SilkS, Edge.Cuts) after placement, power, USB, signals, pours |
 | `drc_stage1.rpt` ... `drc_stage5.rpt` | DRC report after each stage (`drc_stage5.rpt` is the final one) |
 | `production/hub_imu.zip` | Gerbers and drill files for JLCPCB (from the Fabrication Toolkit plugin) |
-| `images/` | 3D renders used in this README |
+| `images/` | 3D renders and photos used in this README |
 
 ## Circuit
 
