@@ -11,3 +11,8 @@ fp-info-cache
 
 # Vendor datasheets (copyrighted)
 bst-bno055-ds000.pdf
+
+# JLCPCB fabrication-toolkit plugin: keep only the gerber zip
+production/*
+!production/hub_imu.zip
+fabrication-toolkit-options.json

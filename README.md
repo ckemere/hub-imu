@@ -9,6 +9,12 @@ USB device that bridges to a Bosch BNO055 9-axis IMU over I2C.
 - **Board:** 21.0 x 14.4 mm, 2 layers, 1.6 mm FR4, 1 oz copper (JLCPCB standard rules)
 - **Tools:** KiCad 9.0
 
+| Top | Bottom |
+|---|---|
+| ![3D render, top](images/render_top.png) | ![3D render, bottom](images/render_bottom.png) |
+
+The renders come from KiCad's 3D viewer. The J1 and J2 headers are marked do-not-populate (hand-soldered), so they don't appear.
+
 ## Contents
 
 | File | What it is |
@@ -17,6 +23,8 @@ USB device that bridges to a Bosch BNO055 9-axis IMU over I2C.
 | `hub_imu.kicad_dru` | Custom design rules (see below) |
 | `stage1.svg` ... `stage5.svg` | Layout renders (F.Cu, B.Cu, F.SilkS, Edge.Cuts) after placement, power, USB, signals, pours |
 | `drc_stage1.rpt` ... `drc_stage5.rpt` | DRC report after each stage (`drc_stage5.rpt` is the final one) |
+| `production/hub_imu.zip` | Gerbers and drill files for JLCPCB (from the Fabrication Toolkit plugin) |
+| `images/` | 3D renders used in this README |
 
 ## Circuit
 
@@ -113,3 +121,7 @@ Checked against Bosch BST-BNO055-DS000-18 (rev 1.8, Oct 2021); page numbers are 
 - MCU decoupling is 100 nF each on VDD and VDDA, plus 4.7 uF at the LDO output on the same short +3V3 net. ST's usual guidance also suggests 1 uF + 10 nF on VDDA. This was judged unnecessary here: the supply traces are short, and the ADC is not used for anything precision-critical.
 
 There are no open items.
+
+## License
+
+The hardware design is licensed under the [CERN Open Hardware Licence v2, Permissive](LICENSE) (CERN-OHL-P-2.0).
