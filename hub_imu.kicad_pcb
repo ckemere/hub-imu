@@ -873,7 +873,7 @@
 		(path "/d0c0a6a3-3ad3-4709-bf28-925921092c09")
 		(sheetname "/")
 		(sheetfile "hub_imu.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 9)
 			(end 1.38 9)
@@ -3563,7 +3563,7 @@
 		(path "/ec1b2a88-42cd-4877-9057-08fe2cf9c217")
 		(sheetname "/")
 		(sheetfile "hub_imu.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 2.45 -0.745)
 			(end 2.45 3.285)
@@ -4272,6 +4272,30 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "a132ef21-d240-4b8b-873f-66e202c6d460")
+	)
+	(gr_text "sdg"
+		(at 75 94 0)
+		(layer "B.SilkS")
+		(uuid "96f3c20e-2f28-41f1-a217-ab2726c0bb85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "EweFeel 1.0\n9/2026"
+		(at 88 87 0)
+		(layer "B.SilkS")
+		(uuid "c9ead0f6-79b5-4095-83f4-004c3edf474e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 83.05 82.48)

@@ -2173,6 +2173,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "hubimu:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "hubimu:PWR_FLAG"
 			(power)
 			(pin_names
@@ -2578,16 +2761,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at -17.78 -7.62 0)
 					(length 2.54)
-					(name "PA0"
+					(name "PA5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2596,16 +2779,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at -17.78 -10.16 0)
 					(length 2.54)
-					(name "PA1"
+					(name "PA6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2668,6 +2851,42 @@
 					)
 				)
 				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 17.78 7.62 180)
 					(length 2.54)
 					(name "PA2"
@@ -2714,42 +2933,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 2.54)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 2.54)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3060,189 +3243,6 @@
 			)
 			(embedded_fonts no)
 		)
-	(symbol "hubimu:LED"
-				(pin_numbers
-					(hide yes)
-				)
-				(pin_names
-					(offset 1.016)
-					(hide yes)
-				)
-				(exclude_from_sim no)
-				(in_bom yes)
-				(on_board yes)
-				(property "Reference" "D"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Value" "LED"
-					(at 0 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Footprint" ""
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
-					)
-				)
-				(property "Datasheet" "~"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
-					)
-				)
-				(property "Description" "Light emitting diode"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
-					)
-				)
-				(property "Sim.Pins" "1=K 2=A"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
-					)
-				)
-				(property "ki_keywords" "LED diode"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
-					)
-				)
-				(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
-					)
-				)
-				(symbol "LED_0_1"
-					(polyline
-						(pts
-							(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-						)
-						(stroke
-							(width 0)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-					(polyline
-						(pts
-							(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-						)
-						(stroke
-							(width 0)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-					(polyline
-						(pts
-							(xy -1.27 0) (xy 1.27 0)
-						)
-						(stroke
-							(width 0)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-					(polyline
-						(pts
-							(xy -1.27 -1.27) (xy -1.27 1.27)
-						)
-						(stroke
-							(width 0.254)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-					(polyline
-						(pts
-							(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-						)
-						(stroke
-							(width 0.254)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-				)
-				(symbol "LED_1_1"
-					(pin passive line
-						(at -3.81 0 0)
-						(length 2.54)
-						(name "K"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-						(number "1"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-					)
-					(pin passive line
-						(at 3.81 0 180)
-						(length 2.54)
-						(name "A"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-						(number "2"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-					)
-				)
-				(embedded_fonts no)
-			)
 		(symbol "hubimu:XC6206PxxxMR"
 			(pin_names
 				(offset 0.254)
@@ -3878,6 +3878,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 55.88) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e02edd-a92f-474f-8c28-0bb563440af6")
+	)
+	(wire
+		(pts
 			(xy 17.78 77.47) (xy 17.78 76.2)
 		)
 		(stroke
@@ -4078,6 +4088,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 55.88) (xy 205.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6be00c-4643-4474-be4a-12b6d0f30413")
+	)
+	(wire
+		(pts
 			(xy 25.4 33.02) (xy 25.4 35.56)
 		)
 		(stroke
@@ -4198,6 +4218,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 78.74) (xy 53.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772655f3-bb7b-4c46-a2ed-d89a239153c5")
+	)
+	(wire
+		(pts
 			(xy 17.78 85.09) (xy 17.78 86.36)
 		)
 		(stroke
@@ -4288,16 +4318,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 78.74) (xy 53.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37cc952-fa66-4d52-b472-d58d1a5bfd76")
-	)
-	(wire
-		(pts
 			(xy 203.2 146.05) (xy 203.2 147.32)
 		)
 		(stroke
@@ -4308,13 +4328,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 78.74) (xy 27.94 78.74)
+			(xy 27.94 78.74) (xy 33.02 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a59a3c16-e59b-4c81-8258-09d30a90e7ac")
+	)
+	(wire
+		(pts
+			(xy 187.96 55.88) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8211673-76ca-474c-ae66-92d3caaadbce")
 	)
 	(wire
 		(pts
@@ -4528,6 +4558,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 55.88) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebee26fb-3e88-4182-981e-1c81ad543b4e")
+	)
+	(wire
+		(pts
 			(xy 63.5 77.47) (xy 63.5 76.2)
 		)
 		(stroke
@@ -4625,6 +4665,16 @@
 			(justify right bottom)
 		)
 		(uuid "3744a56a-428e-4970-a349-e07066b5658b")
+	)
+	(label "STATUS_LED"
+		(at 165.1 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c577ec4-045b-468b-ab70-16096a04bf38")
 	)
 	(label "IMU_nRST"
 		(at 195.58 172.72 270)
@@ -4973,6 +5023,82 @@
 			(project "hub_imu"
 				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
 					(reference "#PWR20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hubimu:LED")
+		(at 196.85 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c869fe8-c391-473d-a2ec-9eba2ffc6f24")
+		(property "Reference" "D1"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 196.85 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e90efa-8578-4658-9473-b265ac345553")
+		)
+		(pin "2"
+			(uuid "18c3b428-ee7c-477a-bc98-8d9736d92e3b")
+		)
+		(instances
+			(project "hub_imu"
+				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6349,6 +6475,82 @@
 		)
 	)
 	(symbol
+		(lib_id "hubimu:R")
+		(at 184.15 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e8af122-a53c-4ad6-9ea7-81fc0b9b9e3d")
+		(property "Reference" "R5"
+			(at 184.15 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 184.15 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9224014b-03c1-4039-b029-5c089742f18a")
+		)
+		(pin "2"
+			(uuid "0c3042ed-518a-4c6e-9a2c-43fdd06d8bd7")
+		)
+		(instances
+			(project "hub_imu"
+				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hubimu:GND")
 		(at 220.98 147.32 0)
 		(unit 1)
@@ -6686,6 +6888,71 @@
 			(project "hub_imu"
 				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hubimu:GND")
+		(at 205.74 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "917a32c3-ef7d-4c06-9f4e-29c0f359457e")
+		(property "Reference" "#PWR27"
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff107502-3731-4dbc-8d74-b506af5e9a53")
+		)
+		(instances
+			(project "hub_imu"
+				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7400,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d0c0a6a3-3ad3-4709-bf28-925921092c09")
 		(property "Reference" "J1"
@@ -7499,7 +7766,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec1b2a88-42cd-4877-9057-08fe2cf9c217")
 		(property "Reference" "J2"
@@ -8123,293 +8390,6 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 163.83 55.88) (xy 180.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e02edd-a92f-474f-8c28-0bb563440af6")
-	)
-	(wire
-		(pts
-			(xy 187.96 55.88) (xy 193.04 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8211673-76ca-474c-ae66-92d3caaadbce")
-	)
-	(wire
-		(pts
-			(xy 200.66 55.88) (xy 205.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebee26fb-3e88-4182-981e-1c81ad543b4e")
-	)
-	(wire
-		(pts
-			(xy 205.74 55.88) (xy 205.74 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6be00c-4643-4474-be4a-12b6d0f30413")
-	)
-	(label "STATUS_LED"
-		(at 165.1 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c577ec4-045b-468b-ab70-16096a04bf38")
-	)
-	(symbol
-		(lib_id "hubimu:R")
-		(at 184.15 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e8af122-a53c-4ad6-9ea7-81fc0b9b9e3d")
-		(property "Reference" "R5"
-			(at 184.15 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 184.15 53.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C11702"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9224014b-03c1-4039-b029-5c089742f18a")
-		)
-		(pin "2"
-			(uuid "0c3042ed-518a-4c6e-9a2c-43fdd06d8bd7")
-		)
-		(instances
-			(project "hub_imu"
-				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hubimu:LED")
-		(at 196.85 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c869fe8-c391-473d-a2ec-9eba2ffc6f24")
-		(property "Reference" "D1"
-			(at 196.85 50.800000000000004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Red"
-			(at 196.85 52.324000000000005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C2286"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97e90efa-8578-4658-9473-b265ac345553")
-		)
-		(pin "2"
-			(uuid "18c3b428-ee7c-477a-bc98-8d9736d92e3b")
-		)
-		(instances
-			(project "hub_imu"
-				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hubimu:GND")
-		(at 205.74 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "917a32c3-ef7d-4c06-9f4e-29c0f359457e")
-		(property "Reference" "#PWR27"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 62.230000000000004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff107502-3731-4dbc-8d74-b506af5e9a53")
-		)
-		(instances
-			(project "hub_imu"
-				(path "/3f2a9c1e-5b7d-4e8a-9c2f-1a6b8d4e7f01"
-					(reference "#PWR27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 30.48 78.74) (xy 33.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce39c64-1355-4915-b25d-6370cc955995")
-	)
-	(wire
-		(pts
-			(xy 48.26 78.74) (xy 50.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772655f3-bb7b-4c46-a2ed-d89a239153c5")
 	)
 	(sheet_instances
 		(path "/"
