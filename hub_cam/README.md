@@ -11,6 +11,7 @@
 | C1, C2 | 10 uF 0603, 100 nF 0402 | C96446, C1525 | 5 V input to the hub |
 | C3, C4 | 4.7 uF, 100 nF 0402 | C23733, C1525 | Output of the hub's internal 3.3 V regulator (VD33F) |
 | C5 | 10 uF 0603 | C96446 | 5 V bulk capacitor at the camera connectors |
+| U2, U3 | USBLC6-2SC6 (SOT-23-6) | C7519 (extended) | ESD protection at each camera connector. D-/D+ pass through pins 1-6 and 3-4. |
 | J2, J3 | JST GH 4-pin, side entry (SM04B-GHS-TB) | C189895 | Camera ports. Pinout: 1 VBUS, 2 D-, 3 D+, 4 GND |
 | J1 | 1x4 2.54 mm holes | - | Stacking header for hub_imu. Same footprint and pin order as hub_imu's J1. |
 | J4-J7 | Wire solder holes | - | Host cable: 1.7 mm holes for 16-18 AWG power, 0.65 mm holes for D-/D+ |
@@ -28,7 +29,7 @@
 
 - **Self-powered (BUSJ tied high).** The host then doesn't limit the cameras to 100 mA each. Nothing on the board limits or switches the camera power.
 - **VBUSM and OVCJ tied to 3.3 V.** There is no over-current sensing.
-- **No ESD protection** (open question).
+- **ESD protection on the camera ports only.** The host cable is soldered permanently, so it is lower risk.
 
 ## Planned layout
 

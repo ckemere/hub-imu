@@ -2071,6 +2071,454 @@
 		)
 		(embedded_fonts no)
 	)
+
+	(symbol "hubcam:USBLC6-2SC6"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0.635 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 0.635 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(at 1.016 -6.731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 1.016 -8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "usb ethernet video"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?666*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USBLC6-2SC6_0_0"
+			(circle
+				(center -1.524 0)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 2.032)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 -4.572)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.508 2.032)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.508 -4.572)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.524 -2.54)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USBLC6-2SC6_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -3.048) (xy -1.016 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.524) (xy -2.032 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+					(xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.524) (xy 2.032 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -3.048) (xy 2.032 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USBLC6-2SC6_1_1"
+			(rectangle
+				(start -2.54 2.794)
+				(end 2.54 -5.334)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "I/O1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "I/O2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "I/O1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "I/O2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(symbol
 		(lib_id "hubcam:FE1.1S-BQFN24B")
@@ -2080,7 +2528,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bc366cc2-8caf-4f00-8775-d23450dde542")
+		(uuid "7265a839-9257-42b4-9bf8-e454e7138e06")
 		(property "Reference" "U1"
 			(at 139.7 73.66 0)
 			(effects
@@ -2136,79 +2584,79 @@
 			)
 		)
 		(pin "19"
-			(uuid "9785aeda-b2d5-4078-a96e-40b1dc49ab6f")
+			(uuid "20fbaa2d-ffeb-4582-af1d-b18b59f60de8")
 		)
 		(pin "20"
-			(uuid "fa8a06ae-2b82-40c3-ae09-1f40e7d3e282")
+			(uuid "392d68cc-c2b3-4741-a653-cf832f7d22ea")
 		)
 		(pin "17"
-			(uuid "561470b3-5c9d-4a60-8346-f70b98b0d8b8")
+			(uuid "57993a8e-9edf-475b-a78b-917b01b75364")
 		)
 		(pin "18"
-			(uuid "abeff51e-bed9-49d7-82ca-32fd6413a119")
+			(uuid "da66c54c-e60b-457b-98b5-baf8b3c2c82f")
 		)
 		(pin "1"
-			(uuid "b8b55d60-8c79-405d-b01a-691fc23eeffa")
+			(uuid "e14d81e5-9d9e-4166-b281-5721abb1c6b9")
 		)
 		(pin "16"
-			(uuid "75e3e2a0-8575-4ae2-be77-d2005ed517a1")
+			(uuid "508b108a-47bd-438e-8a90-108173926450")
 		)
 		(pin "21"
-			(uuid "5382785c-f3da-4449-9476-aa24fee93b23")
+			(uuid "c982bad4-a09e-4864-90f6-40b3525fb321")
 		)
 		(pin "13"
-			(uuid "d9dc6fb9-dfd7-48f8-ab74-bbbf091c249c")
+			(uuid "72685eff-c674-46ae-9959-4186d7898e34")
 		)
 		(pin "4"
-			(uuid "8de4f4db-015c-4501-84b9-51c3918cc6c1")
+			(uuid "8d25ae2e-0886-49cc-a53a-43d680c67968")
 		)
 		(pin "3"
-			(uuid "bcad4997-2484-42b8-b0dd-5ac3d4d7f3a3")
+			(uuid "8894f4bd-2d2a-4439-95c5-fd15714f8426")
 		)
 		(pin "2"
-			(uuid "49064b1f-19d5-44c6-8f6c-76b1056f66f0")
+			(uuid "74cedd86-0437-43cb-b121-4cd22a3ec7b6")
 		)
 		(pin "22"
-			(uuid "c99d02e7-d01a-46fb-b2f1-9b9f2915c8e9")
+			(uuid "f34079a5-c8cb-4ed4-8df7-1b6c32452f20")
 		)
 		(pin "23"
-			(uuid "0e2ebcc9-09a5-449b-9a84-857d1c8420c9")
+			(uuid "655ff2f6-2d89-425b-904f-c421120783cb")
 		)
 		(pin "24"
-			(uuid "11898288-4e0b-4fcd-aca2-8f0d5553d124")
+			(uuid "2f6ba1b7-4224-4717-beb1-4b1792d8a041")
 		)
 		(pin "25"
-			(uuid "202a0dcf-12f1-4ed8-baf3-863d8901ddc5")
+			(uuid "86d93e9e-19cc-451c-a383-e22ca5446a97")
 		)
 		(pin "15"
-			(uuid "ac1f7dfe-a28e-43ad-a540-1ee589377048")
+			(uuid "c991424b-1da6-45a1-91d5-c85b70a3e7c8")
 		)
 		(pin "14"
-			(uuid "43ddc0be-1e2d-417c-8eea-18e779c83296")
+			(uuid "c1c6e4b1-3805-4c2e-b176-b9943bd0442e")
 		)
 		(pin "12"
-			(uuid "1b957463-2c93-4a74-a898-295984ad5bcf")
+			(uuid "eab5fadc-c73f-48ae-a1dc-9a57e1e9a6bc")
 		)
 		(pin "11"
-			(uuid "9187a26d-9a13-4ddb-ace1-cc7c0df901e6")
+			(uuid "9be32bad-efdd-469f-a1f1-c67550cabe36")
 		)
 		(pin "10"
-			(uuid "7c19f63e-45d6-499f-8ab3-76124bb6b847")
+			(uuid "c87ba895-6743-4b1d-892c-754dee27f75b")
 		)
 		(pin "9"
-			(uuid "ea72cbc6-8aa5-476f-a796-6c34f943b9e8")
+			(uuid "2e38f1e0-77c0-47b3-99a6-ffc75201dd3b")
 		)
 		(pin "8"
-			(uuid "b35aea16-22c2-42ea-80af-8d18b6c3889b")
+			(uuid "ceea8800-cb9e-48b0-831f-d1b6e376fb5d")
 		)
 		(pin "7"
-			(uuid "bbdf2ec0-509f-4bc3-8d02-715f34c2d01b")
+			(uuid "44ee3bff-fbcf-4920-9d71-140463bb6adc")
 		)
 		(pin "6"
-			(uuid "c0d505f5-cd3f-43ff-8694-00ea30490e9b")
+			(uuid "4374444b-0861-4a46-8cdd-b37b48082d42")
 		)
 		(pin "5"
-			(uuid "588e40a6-7854-47ff-af81-2817c6fd815b")
+			(uuid "7f80ed35-f321-493c-85b1-f670ecee488d")
 		)
 		(instances
 			(project "hub_cam"
@@ -2227,7 +2675,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "91cd31c7-03b3-4382-939c-1f8734fadb57")
+		(uuid "57874581-8b74-490e-9a55-c4fe500f57f3")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -2237,7 +2685,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "a980bc15-2e92-4352-ac5d-f7c977042de0")
+		(uuid "ebd701e0-d122-45da-a96a-4ab1037f0e50")
 		(property "Reference" "#PWR01"
 			(at 121.92 77.47 0)
 			(effects
@@ -2283,7 +2731,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8471ff11-548c-49b2-a8ed-58ffcc5d5216")
+			(uuid "3b897031-866c-4aeb-ae84-885027cad78a")
 		)
 		(instances
 			(project "hub_cam"
@@ -2302,7 +2750,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ed52c37a-a309-412a-8bec-79ce95a8ded6")
+		(uuid "bbccaf29-ee55-4b0d-a19a-cc73972524e5")
 	)
 	(label "XRSTJ"
 		(at 121.92 91.44 180)
@@ -2312,7 +2760,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "89500185-bae4-4f30-b548-2acbb9e6ca3d")
+		(uuid "0d09e5e5-178c-428b-a1b1-07e32e477123")
 	)
 	(wire
 		(pts
@@ -2322,7 +2770,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "45667fdd-f2db-499f-bb05-6bf809447e1b")
+		(uuid "38945cc2-4484-47ce-a02f-b8fafb6a51eb")
 	)
 	(label "DRV"
 		(at 121.92 93.98 180)
@@ -2332,7 +2780,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2cff9f94-c527-4b59-8f88-2d4da433b18a")
+		(uuid "5735807f-5e96-4b3d-b76f-c20edd8e2ea4")
 	)
 	(wire
 		(pts
@@ -2342,7 +2790,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2aa178ad-24a7-4982-b254-1f928b5d710e")
+		(uuid "e2e73bbf-c175-4db1-92ac-0574fb97d391")
 	)
 	(label "REXT"
 		(at 121.92 96.52 180)
@@ -2352,7 +2800,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ba3a5123-4c6d-46a1-b217-c4b5b9ef2839")
+		(uuid "32f87340-0526-4827-838e-f6536e12d16d")
 	)
 	(wire
 		(pts
@@ -2362,7 +2810,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4bb9f307-5d25-4da0-8ebd-a837450b83d5")
+		(uuid "6ef07bef-e779-42e6-b754-6cebb8ef0817")
 	)
 	(label "XIN"
 		(at 121.92 99.06 180)
@@ -2372,7 +2820,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7f311cc8-af67-4b5c-989a-004cbee995dc")
+		(uuid "e39d6185-39b2-4304-b34d-bbe13808b13f")
 	)
 	(wire
 		(pts
@@ -2382,7 +2830,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c0d933a5-eb08-4c9d-93b4-bc3e2c45da23")
+		(uuid "52a20001-7cf1-4c50-8db7-6919af8988cd")
 	)
 	(label "XOUT"
 		(at 121.92 101.6 180)
@@ -2392,23 +2840,23 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6a359760-1918-4d59-af84-6f77be0e4adb")
+		(uuid "7e0603b3-910d-4386-8dfe-79929e7d4fb5")
 	)
 	(no_connect
 		(at 124.46 104.14)
-		(uuid "b966cfad-4dbb-45b7-8d15-c91f86b9185f")
+		(uuid "0e91ac27-fe92-48b2-ba81-bc20a04f125f")
 	)
 	(no_connect
 		(at 124.46 106.68)
-		(uuid "368ac8e2-ea26-48be-a630-4e4e78324a26")
+		(uuid "a143987c-d490-47af-aae2-e7cbef4f9a96")
 	)
 	(no_connect
 		(at 124.46 109.22)
-		(uuid "5f081e5e-da17-4c7d-b179-6a82dbefdee5")
+		(uuid "6ec7d09d-2795-4c66-935f-7d70964be5b4")
 	)
 	(no_connect
 		(at 124.46 111.76)
-		(uuid "79cf192c-bf8a-4c7b-bce8-f0e4f68059bc")
+		(uuid "d484d1e6-a3a4-4971-81fd-0886ffd09bf7")
 	)
 	(wire
 		(pts
@@ -2418,7 +2866,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d1414bf2-a7d9-47a2-9d54-c54c374b71b7")
+		(uuid "49e1b24a-56c5-47cd-9b5b-6438eea85ee3")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -2428,7 +2876,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "95cd9bec-b9fd-4cae-a73e-a6f73415aaba")
+		(uuid "8da5cdd0-1a7f-4c54-98d2-56f68fe86a9d")
 		(property "Reference" "#PWR02"
 			(at 121.92 113.03 0)
 			(effects
@@ -2474,7 +2922,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "754c3186-2a7d-46de-9cb7-99b2259ca013")
+			(uuid "80ec2082-4f3a-4618-a75e-b5155c207d9f")
 		)
 		(instances
 			(project "hub_cam"
@@ -2493,7 +2941,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3f8298b2-2a7a-4e28-af96-913c38a751bb")
+		(uuid "e577d8ec-2171-42a4-bf6e-39d27d1df71f")
 	)
 	(label "HOST_DP"
 		(at 157.48 78.74 0)
@@ -2503,7 +2951,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0f698bac-af3c-4b2e-80de-dc222b320f12")
+		(uuid "7d00f4b7-7760-4d98-989b-d1a16a6db648")
 	)
 	(wire
 		(pts
@@ -2513,7 +2961,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9c84c769-aa1b-4b92-a343-b39c31736648")
+		(uuid "fba3655a-4a16-44a0-9531-7f12eaf9c7ce")
 	)
 	(label "HOST_DM"
 		(at 157.48 81.28 0)
@@ -2523,7 +2971,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1345f5fe-e8ab-4457-aad3-087601fad592")
+		(uuid "7ba8fe49-6586-4e72-a503-551b2073b527")
 	)
 	(wire
 		(pts
@@ -2533,7 +2981,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0cdda78b-7249-419f-ad66-f7479e2dce42")
+		(uuid "be9da1ac-c059-4cd8-ba32-ec9da8e9ff93")
 	)
 	(label "CAM1_DP"
 		(at 157.48 86.36 0)
@@ -2543,7 +2991,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "27290069-eb34-44a3-971e-71d791acb501")
+		(uuid "7c68293c-c555-4621-bc2a-aab5918a6e41")
 	)
 	(wire
 		(pts
@@ -2553,7 +3001,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9c55aba1-7f87-4afb-a91d-85b2b56ab5a7")
+		(uuid "800a50cb-5292-4ead-880e-b03c123d6376")
 	)
 	(label "CAM1_DM"
 		(at 157.48 88.9 0)
@@ -2563,7 +3011,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c54fc92a-6433-485a-a357-cd5c83b99ed0")
+		(uuid "17e54e28-ac5d-4a45-8482-8b0132099cf8")
 	)
 	(wire
 		(pts
@@ -2573,7 +3021,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1ae540a1-2ea8-4958-b5cc-6a0299589764")
+		(uuid "36f411c2-2a83-4eaa-95ac-8d7047a604b1")
 	)
 	(label "CAM2_DP"
 		(at 157.48 91.44 0)
@@ -2583,7 +3031,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "10e3589c-4abb-4b4a-8558-3f89dc965e9a")
+		(uuid "383a9d8d-0987-46e3-8e7d-d1ba7c309cd0")
 	)
 	(wire
 		(pts
@@ -2593,7 +3041,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "25e4c2df-4b7b-4be3-8a90-834d615be33b")
+		(uuid "66fb6b36-2320-41cf-85dd-901b56ee0d2d")
 	)
 	(label "CAM2_DM"
 		(at 157.48 93.98 0)
@@ -2603,7 +3051,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ba3626a7-7aa6-4be1-9ac4-b95a606dce78")
+		(uuid "fe1854cb-0cb9-478f-b64f-9aff6fa0f492")
 	)
 	(wire
 		(pts
@@ -2613,7 +3061,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a9b76ad1-4132-4d6c-8af0-d18190b8c88d")
+		(uuid "b4643b3c-3bc0-4f51-9cfc-229d3a79e06f")
 	)
 	(label "IMU_DP"
 		(at 157.48 96.52 0)
@@ -2623,7 +3071,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ef86eb87-28cf-467d-82c1-e67a67279e93")
+		(uuid "b726a079-ef24-4402-8685-a9ada09d833b")
 	)
 	(wire
 		(pts
@@ -2633,7 +3081,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "420df339-2691-4076-a07f-78380c5b7efc")
+		(uuid "849b51f1-bf2f-49c5-af16-eb336bf3f7aa")
 	)
 	(label "IMU_DM"
 		(at 157.48 99.06 0)
@@ -2643,15 +3091,15 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7f3c56c1-c97a-4be7-8d0d-b836bed04460")
+		(uuid "e2ef5a3b-5bf0-4997-89ac-bed507089919")
 	)
 	(no_connect
 		(at 154.94 104.14)
-		(uuid "38d07082-dc39-4b8d-b086-480134e628c3")
+		(uuid "cce6ae4e-36e4-4e6e-b5ff-201aafc667fa")
 	)
 	(no_connect
 		(at 154.94 106.68)
-		(uuid "9f024269-d9a4-4fac-8dd9-08869f4b326d")
+		(uuid "b5173445-c040-406e-b5ef-1a2445210fdd")
 	)
 	(wire
 		(pts
@@ -2661,7 +3109,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "86ca6bd8-358f-4faa-b05c-256c4c1ab210")
+		(uuid "be74fedb-4a47-42c6-8443-97abac4bd3d1")
 	)
 	(wire
 		(pts
@@ -2671,7 +3119,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "67db5b77-d82c-4655-b3a2-fc9f1e1c261d")
+		(uuid "0dce554e-68e2-404c-a6d7-e059d85b0204")
 	)
 	(wire
 		(pts
@@ -2681,7 +3129,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "57b22e75-c6e5-49da-96d0-fd7a96105fd7")
+		(uuid "c7a91fb2-276d-4844-8968-20efa3aff421")
 	)
 	(wire
 		(pts
@@ -2691,7 +3139,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "96a3535c-807e-482e-8332-cd02b8f529fd")
+		(uuid "aa84fa94-b486-4ec1-97bd-ceb0f70b5c32")
 	)
 	(wire
 		(pts
@@ -2701,7 +3149,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2c4c30b-948d-4e14-a5a2-48aa98cb1be8")
+		(uuid "fb07ba50-c49c-42c5-b010-8c634a9fa595")
 	)
 	(wire
 		(pts
@@ -2711,7 +3159,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b914f01d-01e1-4324-bd35-aeabc6c96451")
+		(uuid "2be35cf0-0cb9-4998-9af3-51f246a9b676")
 	)
 	(wire
 		(pts
@@ -2721,25 +3169,25 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "69a1b91a-8934-45e9-b6eb-38d98d243d84")
+		(uuid "e75e35fb-b104-47c4-b8dd-0952e382b22e")
 	)
 	(junction
 		(at 114.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29591cc4-09e2-4fb0-9ed1-d461c4da51ea")
+		(uuid "d62fa969-b9df-4a1d-a8a8-c461907a4c33")
 	)
 	(junction
 		(at 114.3 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f434eb6-6c03-481d-a022-49fc7adcdfc0")
+		(uuid "01fc7fad-0f4b-465e-9e79-61d4f371bb82")
 	)
 	(junction
 		(at 114.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "627a66d9-fe54-4ca3-8372-5c15ad23d323")
+		(uuid "7af3ed57-d82a-4af5-8ea1-42e0c65ae0c9")
 	)
 	(wire
 		(pts
@@ -2749,7 +3197,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f19374ae-f6fe-4226-9778-7b8838183bc4")
+		(uuid "c8450c58-c646-4819-aaf7-111f3ef5b7ce")
 	)
 	(symbol
 		(lib_id "hubcam:+3V3")
@@ -2759,7 +3207,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "b3809f44-756d-410b-b21c-575a0fb1ec54")
+		(uuid "89ac6ca4-3d63-4554-8802-ea43e1c5b8a0")
 		(property "Reference" "#PWR03"
 			(at 116.84 72.39 0)
 			(effects
@@ -2805,7 +3253,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2b07a20-db12-4f35-9ea4-e7bbfad9e134")
+			(uuid "83152153-e89d-4358-940f-e8c06a4d2d0f")
 		)
 		(instances
 			(project "hub_cam"
@@ -2824,7 +3272,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "377fd32c-90b8-4183-8613-ba5294b6e5ba")
+		(uuid "2373b94e-43c7-4e4e-8d1c-2480b9bb52a8")
 		(property "Reference" "C1"
 			(at 63.5 49.529999999999994 0)
 			(effects
@@ -2880,10 +3328,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3b6cdee-e40a-416f-9ced-9291db6c02ad")
+			(uuid "971a5693-7ef3-464c-a1c1-a5bed0281593")
 		)
 		(pin "2"
-			(uuid "b80c00c7-0c25-4c32-87ec-4beb59a92c68")
+			(uuid "9cef8042-d744-4f26-98b0-a2e5d7a9d74a")
 		)
 		(instances
 			(project "hub_cam"
@@ -2902,7 +3350,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "424c3e87-01de-4fc9-acb3-082879051e8d")
+		(uuid "02c15c0b-ecb5-4878-8d53-2706c0fbd72e")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -2912,7 +3360,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "72297b1d-2728-4030-8d05-12f2e17f0039")
+		(uuid "125d7175-4349-4ac7-a395-931c0daab149")
 		(property "Reference" "#PWR04"
 			(at 63.5 43.18 0)
 			(effects
@@ -2958,7 +3406,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "150bc0cf-7035-47e4-bf94-3075ace68578")
+			(uuid "b54002ed-9e26-488c-9762-9033bc1ec5b2")
 		)
 		(instances
 			(project "hub_cam"
@@ -2977,7 +3425,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c149ed63-8cd1-4e46-97cb-609c95daba40")
+		(uuid "1f1938ca-229b-426c-8bb4-fb1c510d8529")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -2987,7 +3435,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "eb0ccbac-7202-4ec6-93e7-6dad2f481a6f")
+		(uuid "a0c1d47f-e935-40cc-af32-dbfd848ee2ed")
 		(property "Reference" "#PWR05"
 			(at 63.5 55.879999999999995 0)
 			(effects
@@ -3033,7 +3481,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "70cc6f89-5d40-461b-9a8a-c0ad7c365d2d")
+			(uuid "11a3a721-f53f-47e8-9a13-bc9eb8869486")
 		)
 		(instances
 			(project "hub_cam"
@@ -3052,7 +3500,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "438be64e-65db-4d76-a512-36aa4d3fc301")
+		(uuid "b09619b8-51ba-415c-bbd5-9fb7c3b23070")
 		(property "Reference" "C2"
 			(at 73.66000000000001 49.529999999999994 0)
 			(effects
@@ -3108,10 +3556,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e397f32-7d62-46b5-84c9-c02a78d5108c")
+			(uuid "2995f0ef-8c47-40f7-8e87-d2fe07941432")
 		)
 		(pin "2"
-			(uuid "ff9f9d61-25e3-4398-9099-d63f76fa3684")
+			(uuid "b445556c-e9c2-487e-ad5d-91c2c620539f")
 		)
 		(instances
 			(project "hub_cam"
@@ -3130,7 +3578,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8db26fa3-4962-4584-a734-db2431a719cb")
+		(uuid "646ab425-1aa5-4094-8cab-7781ef6b51fd")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -3140,7 +3588,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "18721c5d-adc8-46fa-a814-51196d5e5ed2")
+		(uuid "3b93fcb5-e440-43ec-9139-ea9b4648dd95")
 		(property "Reference" "#PWR06"
 			(at 73.66000000000001 43.18 0)
 			(effects
@@ -3186,7 +3634,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd3c90f8-e171-4ce2-a82f-7d997226e3bf")
+			(uuid "309f71a4-8e1d-4b16-ad60-17328c0f2aaa")
 		)
 		(instances
 			(project "hub_cam"
@@ -3205,7 +3653,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "611142db-986e-4416-90b7-c6e087f61c25")
+		(uuid "41a491e7-0423-46af-ade2-9dceae2a1284")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -3215,7 +3663,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "41facce5-cb29-4a68-b771-b740c52eb89b")
+		(uuid "96505a2b-0529-4b2d-b0a6-aca2637fcb28")
 		(property "Reference" "#PWR07"
 			(at 73.66000000000001 55.879999999999995 0)
 			(effects
@@ -3261,7 +3709,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e130f94-b23f-4eb3-a4f8-611b703f5299")
+			(uuid "03e4b788-5215-4835-bc64-147ba2eab618")
 		)
 		(instances
 			(project "hub_cam"
@@ -3280,7 +3728,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0b8715ba-1771-4955-ac2b-72cf5ec615be")
+		(uuid "4aeb79d2-81d0-4aaf-84d6-51a46b5877eb")
 		(property "Reference" "C3"
 			(at 88.9 49.529999999999994 0)
 			(effects
@@ -3336,10 +3784,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4cdcb2d-232e-4caf-9a93-c1e606e2740b")
+			(uuid "3a68636b-1a13-4789-ad09-263742232945")
 		)
 		(pin "2"
-			(uuid "7f35efa9-8f02-478e-ba2c-90bef8dcd8cd")
+			(uuid "efe0aac3-2190-4a43-ae58-9f92398aeb62")
 		)
 		(instances
 			(project "hub_cam"
@@ -3358,7 +3806,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3914c6b2-aa6b-43d8-965c-ebaaa5aa136e")
+		(uuid "d74452e5-1f8c-441c-94ad-4267036e07ce")
 	)
 	(symbol
 		(lib_id "hubcam:+3V3")
@@ -3368,7 +3816,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "c212a3b9-fdad-4e2d-befa-ada17d8a8640")
+		(uuid "d77f1b7f-0019-490f-8e87-202f4e89ea57")
 		(property "Reference" "#PWR08"
 			(at 88.9 43.18 0)
 			(effects
@@ -3414,7 +3862,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcc382a2-0c04-48c9-a1be-e321450d7533")
+			(uuid "12e05bb5-1f7b-49c1-9a20-19581b3f3734")
 		)
 		(instances
 			(project "hub_cam"
@@ -3433,7 +3881,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c134e893-a69d-44d3-a0d7-71773173c6c6")
+		(uuid "4a8e28e0-7086-42aa-b6de-f455933eaedf")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -3443,7 +3891,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "15e58b67-8c7c-4656-b7f1-d032ff8a5bbe")
+		(uuid "937ee312-d73c-45e7-b9f4-e95aa6825320")
 		(property "Reference" "#PWR09"
 			(at 88.9 55.879999999999995 0)
 			(effects
@@ -3489,7 +3937,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "649028ba-10f3-422c-8cd3-6e2d5c2eee2d")
+			(uuid "494c8639-3199-44ad-8ef2-875c246da495")
 		)
 		(instances
 			(project "hub_cam"
@@ -3508,7 +3956,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69506ee3-d0b5-4327-9fbf-bfc9bc0c4cf0")
+		(uuid "9202bde4-7e38-4f75-b0ac-60790a532fd2")
 		(property "Reference" "C4"
 			(at 99.06 49.529999999999994 0)
 			(effects
@@ -3564,10 +4012,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4802a593-92b1-4f9a-9e73-e7b587479f64")
+			(uuid "586feec1-8d16-45f9-a9f0-9a48f1a70a93")
 		)
 		(pin "2"
-			(uuid "4c879785-211c-44c8-b446-b17236475a9a")
+			(uuid "2de76897-1fb9-4f5c-82d3-c9a5d85aa7f7")
 		)
 		(instances
 			(project "hub_cam"
@@ -3586,7 +4034,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "931c9c74-7270-4ee3-9ba1-e81a69f6a9bb")
+		(uuid "9d192b29-a1dc-4f1f-a4ae-043992b540a0")
 	)
 	(symbol
 		(lib_id "hubcam:+3V3")
@@ -3596,7 +4044,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "d0f9bcb0-db75-4094-8788-623627dbf362")
+		(uuid "473ed8af-4c93-455d-af6e-64404ccac8d2")
 		(property "Reference" "#PWR10"
 			(at 99.06 43.18 0)
 			(effects
@@ -3642,7 +4090,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0891532a-038d-4b88-bdb0-6c547b7f3860")
+			(uuid "182021b4-2ba5-430c-b9db-fbcc173827d8")
 		)
 		(instances
 			(project "hub_cam"
@@ -3661,7 +4109,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "476df81e-edce-4341-b15c-0995118d9c40")
+		(uuid "e917bef4-8caa-4b8a-95fa-248eaff520ff")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -3671,7 +4119,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "373f25e5-1cd9-4595-8a36-aca7992c1a00")
+		(uuid "64b0c110-b7b5-4746-bf62-f252a3dfa32c")
 		(property "Reference" "#PWR11"
 			(at 99.06 55.879999999999995 0)
 			(effects
@@ -3717,7 +4165,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eb73dbc-9c48-422d-aacd-51c7cbb1e377")
+			(uuid "5b8c3d9e-c08e-4295-b98c-cef9066294e6")
 		)
 		(instances
 			(project "hub_cam"
@@ -3730,15 +4178,15 @@
 	)
 	(symbol
 		(lib_id "hubcam:C")
-		(at 205.74 66.04 0)
+		(at 210.82 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6bb45c49-4d1b-4c49-9257-8dbad3e4f1dc")
+		(uuid "9a026394-f584-4804-bc40-88803717578b")
 		(property "Reference" "C5"
-			(at 208.28 64.77000000000001 0)
+			(at 213.35999999999999 64.77000000000001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +4195,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 208.28 67.31 0)
+			(at 213.35999999999999 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +4204,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 205.74 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +4213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4231,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C96446"
-			(at 205.74 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,10 +4240,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0282ca9-cad6-485a-b543-ec669c15a538")
+			(uuid "07239674-d976-4c02-a3f5-c7bf6cad2e60")
 		)
 		(pin "2"
-			(uuid "2b6f7702-2552-4b1e-8784-c4d7625350a1")
+			(uuid "819c7ad7-bdd3-44e1-8756-17e54b796101")
 		)
 		(instances
 			(project "hub_cam"
@@ -3808,25 +4256,25 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 62.23) (xy 205.74 59.69)
+			(xy 210.82 62.23) (xy 210.82 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e521bd4-18bf-4d25-92ec-4f86350bfb84")
+		(uuid "14821f8b-94d4-4ca5-b924-efc594420e72")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
-		(at 205.74 59.69 0)
+		(at 210.82 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "d3d1ee8d-858e-4360-9bf1-847b029835a1")
+		(uuid "d62ad4b9-f906-47a2-94ca-cbae3b78110c")
 		(property "Reference" "#PWR12"
-			(at 208.28 58.419999999999995 0)
+			(at 213.35999999999999 58.419999999999995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +4283,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 205.74 55.88 0)
+			(at 210.82 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +4291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 59.69 0)
+			(at 210.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 59.69 0)
+			(at 210.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +4309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 59.69 0)
+			(at 210.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +4318,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "989c4768-0923-4606-b4c8-54b558a1cdf8")
+			(uuid "c362d676-a5b5-46d3-9e61-c505e8aa926d")
 		)
 		(instances
 			(project "hub_cam"
@@ -3883,25 +4331,25 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 69.85) (xy 205.74 72.39)
+			(xy 210.82 69.85) (xy 210.82 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18bbe584-6480-49c6-bd8b-8ccbddb9e46e")
+		(uuid "a16642aa-932e-4f86-a9f5-b57635938b1c")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
-		(at 205.74 72.39 0)
+		(at 210.82 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "8309531f-b2ec-46f2-9f36-01ca02e04d65")
+		(uuid "612dad42-2a25-4bca-97dd-712be67525d0")
 		(property "Reference" "#PWR13"
-			(at 208.28 71.12 0)
+			(at 213.35999999999999 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 76.2 0)
+			(at 210.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +4366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 72.39 0)
+			(at 210.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +4375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 72.39 0)
+			(at 210.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +4384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 72.39 0)
+			(at 210.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +4393,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "57e48cc9-09db-4e15-9d3f-15e08153e0c8")
+			(uuid "2db36958-5000-40c8-b7eb-126a7a23b248")
 		)
 		(instances
 			(project "hub_cam"
@@ -3964,7 +4412,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1941b0e-41b1-41dc-9c11-27762290d221")
+		(uuid "d46db52e-0b87-462d-aa70-e881b3bb8904")
 		(property "Reference" "R2"
 			(at 63.5 77.47 0)
 			(effects
@@ -4020,10 +4468,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dedc93bb-702f-4ac3-96a6-52cd4e92cd04")
+			(uuid "79f85233-c18d-4bf4-85c9-32c3681ec466")
 		)
 		(pin "2"
-			(uuid "43de12d8-0f51-4d2a-8923-a2604cfb38fb")
+			(uuid "7f17770a-57d4-4f8e-b6d0-c9b1dd701e04")
 		)
 		(instances
 			(project "hub_cam"
@@ -4042,7 +4490,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2ddfe739-d400-4e35-be25-5c178eb59e88")
+		(uuid "51114369-729c-489e-848f-5bf7aa3b2cb4")
 	)
 	(symbol
 		(lib_id "hubcam:+3V3")
@@ -4052,7 +4500,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "6740e62b-d0d2-494c-ac80-19fb0af0ce21")
+		(uuid "57f69d7a-c58d-47fe-83d4-41f41675bf33")
 		(property "Reference" "#PWR14"
 			(at 63.5 71.12 0)
 			(effects
@@ -4098,7 +4546,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8471415b-c26f-40de-a3d5-7dcfdb6130d0")
+			(uuid "0393b1f0-bc7f-4036-94cf-61383e17bea4")
 		)
 		(instances
 			(project "hub_cam"
@@ -4117,7 +4565,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dc4e16b0-fddf-4c09-9506-b100b7d0ab1c")
+		(uuid "cc5c82b5-02fa-41e3-87fc-063ae5b05975")
 	)
 	(label "XRSTJ"
 		(at 60.96 85.09 270)
@@ -4127,7 +4575,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3ba8d458-dff5-4356-be53-a99ed1c2caa9")
+		(uuid "3efead31-fdea-492d-93ec-d75e0d6cfc96")
 	)
 	(symbol
 		(lib_id "hubcam:R")
@@ -4137,7 +4585,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3b8d9d0-eb67-437b-83b4-7d8c51b02be3")
+		(uuid "e8b60e8b-02b9-4a4c-af56-6fcda769646c")
 		(property "Reference" "R3"
 			(at 73.66000000000001 77.47 0)
 			(effects
@@ -4193,10 +4641,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e84c88b-3a91-46b5-8476-946797fe989b")
+			(uuid "b9dc6536-ffbd-486e-9c7d-6c6a2aa9a702")
 		)
 		(pin "2"
-			(uuid "889addb9-37a2-4061-909b-e36fb78ed655")
+			(uuid "6674ff0e-8e04-4082-8a66-e0f15c845938")
 		)
 		(instances
 			(project "hub_cam"
@@ -4215,7 +4663,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b4ef3477-ce5b-437d-b24a-6001a2165c48")
+		(uuid "1868432c-26c0-4bf7-ac94-1fd28fd98302")
 	)
 	(label "DRV"
 		(at 71.12 72.39 90)
@@ -4225,7 +4673,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "778496ad-841e-47ef-a5bc-efa3d6ad54dc")
+		(uuid "ce06162d-8669-409f-b9c3-c1c3d84d978b")
 	)
 	(wire
 		(pts
@@ -4235,7 +4683,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5e14cad8-c460-4e0d-884a-a98db77c048f")
+		(uuid "bcc6d18b-d6ff-4aea-912c-78327b618b09")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -4245,7 +4693,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "6f8d63b4-5f16-4de7-b7b7-4651eca07005")
+		(uuid "45fb2724-5aab-42a4-a4d2-16d3e9e8e546")
 		(property "Reference" "#PWR15"
 			(at 73.66000000000001 83.82000000000001 0)
 			(effects
@@ -4291,7 +4739,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "35f91899-325d-4329-b2f2-d1517999763b")
+			(uuid "53c2a5e4-4606-47eb-8848-b5a59f087175")
 		)
 		(instances
 			(project "hub_cam"
@@ -4310,7 +4758,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cdb5894f-57db-48e4-8c98-7013a9277480")
+		(uuid "84130570-4647-4c1c-8209-df3d7ca11cd3")
 		(property "Reference" "R1"
 			(at 83.82000000000001 77.47 0)
 			(effects
@@ -4366,10 +4814,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "08a6e515-8347-4129-ae1a-bb9002912e37")
+			(uuid "475041cf-6ceb-47e8-9009-4dd38aa0ccb8")
 		)
 		(pin "2"
-			(uuid "311eb0f0-65ac-45ae-b201-3d7bdd0cf0ac")
+			(uuid "5e3ee123-145d-4a96-900d-d2d75ad3d042")
 		)
 		(instances
 			(project "hub_cam"
@@ -4388,7 +4836,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8f05c1b8-0780-4b24-a87a-709c11cad468")
+		(uuid "b36c3f4b-4b09-424e-9924-014cffde9bb3")
 	)
 	(label "REXT"
 		(at 81.28 72.39 90)
@@ -4398,7 +4846,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ce205c86-af69-4bd2-93ed-5d99a2551f31")
+		(uuid "402a1fe2-9b79-4258-aa1b-77f8483770cc")
 	)
 	(wire
 		(pts
@@ -4408,7 +4856,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0c796954-d596-4354-bf58-555dbf972625")
+		(uuid "8e691583-0d70-4ff3-a302-8c7b68ffae07")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -4418,7 +4866,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "e9a13e48-108e-48a4-93db-ef3750134c81")
+		(uuid "4640f4ee-cc45-43e6-82c7-123a5fcc41ad")
 		(property "Reference" "#PWR16"
 			(at 83.82000000000001 83.82000000000001 0)
 			(effects
@@ -4464,7 +4912,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c06196e-9847-4215-bbf2-8e4df1ce5b70")
+			(uuid "ca49a8db-a565-410a-b57c-13a1bf69ae92")
 		)
 		(instances
 			(project "hub_cam"
@@ -4483,7 +4931,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f8035f9a-7c02-41f4-8962-886462206d82")
+		(uuid "b23f3156-6444-41fc-9256-c0c1d621498b")
 		(property "Reference" "Y1"
 			(at 81.28 100.33 0)
 			(effects
@@ -4539,16 +4987,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3be6b5c5-3b48-48ef-b513-27feb3bd900f")
+			(uuid "c7f8c255-18b9-45d0-b423-a86ef5117c13")
 		)
 		(pin "2"
-			(uuid "843d8841-324f-43d2-aa86-b93e5ca23b99")
+			(uuid "34875e27-8ab0-47ec-afd9-7ed8eb33ec0b")
 		)
 		(pin "4"
-			(uuid "96aa4dba-8d17-401a-8a8e-76a4d09b3138")
+			(uuid "bdb5ca66-fa81-4e6a-b4dc-56e407bf3af6")
 		)
 		(pin "3"
-			(uuid "2640ebb3-fb7a-4182-8c8b-7770030af009")
+			(uuid "d3841bae-445e-42e6-93cc-a32af00edd90")
 		)
 		(instances
 			(project "hub_cam"
@@ -4567,7 +5015,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2304aff-c702-46eb-9f99-4797d42413c4")
+		(uuid "30486143-8d44-465a-b813-10de15af77b3")
 	)
 	(label "XIN"
 		(at 74.93 106.68 180)
@@ -4577,7 +5025,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bb87ed0d-4282-4464-a2ab-20c7fbe07fa8")
+		(uuid "52d27952-9b37-4a93-b725-c76df3f3fa24")
 	)
 	(wire
 		(pts
@@ -4587,7 +5035,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "53f0b3a1-e076-4889-9cd6-c990c8bb1776")
+		(uuid "c26f4b27-e7c5-4f73-bc9e-2acd516930d5")
 	)
 	(label "XOUT"
 		(at 87.63 106.68 0)
@@ -4597,7 +5045,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d3e986ce-9b99-4b27-90b6-0b4ecf5ba61e")
+		(uuid "a2e0e760-98ce-4f47-88c4-5ee3df7a5067")
 	)
 	(wire
 		(pts
@@ -4607,7 +5055,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4ba447dc-6fb0-4b47-8d25-12adc2c52f14")
+		(uuid "bff50906-aa1f-404f-a618-b423f0f10515")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -4617,7 +5065,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "cc32af07-eaa4-4e04-8d7f-e91118a9cb12")
+		(uuid "34600f86-aaa0-4a37-b492-f1bd77150d5e")
 		(property "Reference" "#PWR17"
 			(at 83.82000000000001 113.03 0)
 			(effects
@@ -4663,7 +5111,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c627e6d-6504-4a76-9612-de717d64ccef")
+			(uuid "f386a9bd-66ee-4c92-89ec-8e55b4d6b08f")
 		)
 		(instances
 			(project "hub_cam"
@@ -4682,7 +5130,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8fe9c743-46d4-4ac3-89dd-85b28f7eaa13")
+		(uuid "72b83c00-a183-44e8-abac-db10f0594b0d")
 		(property "Reference" "J2"
 			(at 226.06 44.449999999999996 0)
 			(effects
@@ -4738,19 +5186,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "5942f808-8efd-4630-b663-b99718a15e5b")
+			(uuid "7a4ade04-a4e7-42bd-9a08-f22cbc5182df")
 		)
 		(pin "2"
-			(uuid "c5c4fa3e-f2a1-48d0-8c30-40119649600a")
+			(uuid "8ea35f54-9af3-4734-b4b9-101528552f77")
 		)
 		(pin "3"
-			(uuid "35ff778b-cd84-4939-a92d-8ebbd37336b0")
+			(uuid "33430a32-6ca5-49ca-b4bc-98b8a6c961c1")
 		)
 		(pin "4"
-			(uuid "a52d03d8-d79a-47d8-a14b-64f509601250")
+			(uuid "d856512c-236b-480a-aae8-65b9ce632765")
 		)
 		(pin "MP"
-			(uuid "850d0c07-4c4b-4b74-946e-013c3f81035d")
+			(uuid "22114bb8-e430-4ea3-bc67-bfb5a2c8701a")
 		)
 		(instances
 			(project "hub_cam"
@@ -4769,7 +5217,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bab75100-02a8-44d4-830c-c1aa61731778")
+		(uuid "fcdf5b42-adbd-4eca-9f51-5db5dc330fd2")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -4779,7 +5227,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "4872f4de-606b-43c2-a11c-3d023a80eb42")
+		(uuid "2af0bdf3-92fc-41e1-9d17-73784f74d9e3")
 		(property "Reference" "#PWR18"
 			(at 220.98 46.989999999999995 0)
 			(effects
@@ -4825,7 +5273,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0935acf-721b-4eea-a077-dbcfd2e28b6b")
+			(uuid "50c54ab1-80ea-40e3-b5a1-921737798746")
 		)
 		(instances
 			(project "hub_cam"
@@ -4844,7 +5292,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4449e959-6e79-4407-85d8-117241815350")
+		(uuid "f07def12-c795-4e38-8603-74b46781bb93")
 	)
 	(label "CAM1_DM"
 		(at 220.98 50.8 180)
@@ -4854,7 +5302,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c5ae4a4e-0a83-4534-8091-9fb07fc26daf")
+		(uuid "3dfbe521-bb72-4523-bd03-4d82f8d87864")
 	)
 	(wire
 		(pts
@@ -4864,7 +5312,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0815531c-3b24-485c-927f-1e85f7b0aa2a")
+		(uuid "a0f936f7-6cf6-427b-8fdd-83270eb7f64a")
 	)
 	(label "CAM1_DP"
 		(at 220.98 53.34 180)
@@ -4874,7 +5322,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "65a4c9b4-c124-4091-a3bc-13f6b0cf586d")
+		(uuid "da6f519f-c8c9-412b-b633-11f64e546cd6")
 	)
 	(wire
 		(pts
@@ -4884,7 +5332,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d0953397-dc90-421a-8434-2a9d60b916e2")
+		(uuid "247f39cb-f23f-4f64-9bd1-e77c7d59773f")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -4894,7 +5342,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "9e22dce7-4d2f-4302-8346-13499b0f6310")
+		(uuid "d5ccfb2a-e818-41d7-894f-80a57d3ce29a")
 		(property "Reference" "#PWR19"
 			(at 220.98 54.61 0)
 			(effects
@@ -4940,7 +5388,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd290c58-315c-4b3e-b461-5e404a267bfd")
+			(uuid "646b773d-3cfc-4752-93c8-59fdbb70aada")
 		)
 		(instances
 			(project "hub_cam"
@@ -4959,7 +5407,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a11494e2-6c63-4a60-9f15-9f4a0aee1c1c")
+		(uuid "cfb49a48-2b34-4b8d-aa84-11604e65d340")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -4969,7 +5417,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "6a1e4ee6-5289-4ea3-a458-feff4abcaef5")
+		(uuid "6dfbf9d0-61ef-4807-8990-35673a5b6d9b")
 		(property "Reference" "#PWR20"
 			(at 231.14 62.23 0)
 			(effects
@@ -5015,7 +5463,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cc27d82-8574-4445-bcf5-6f307806ec8d")
+			(uuid "dd65eae2-f10a-4ad4-a22d-9d1d6b2c776d")
 		)
 		(instances
 			(project "hub_cam"
@@ -5034,7 +5482,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "15a30115-cabb-4044-bc32-26508121b3fa")
+		(uuid "a84620fa-f174-492d-8cd0-8df3af5a6690")
 		(property "Reference" "J3"
 			(at 226.06 74.93 0)
 			(effects
@@ -5090,19 +5538,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa56101b-7077-4003-8c3a-b58ad3c1b0cb")
+			(uuid "4fc61c73-d7cf-46ab-b44d-e47f7663e7d1")
 		)
 		(pin "2"
-			(uuid "83886f23-3b64-4b75-beac-fe131b9fe869")
+			(uuid "54135d77-2c45-4be2-84bb-98a1188ac08e")
 		)
 		(pin "3"
-			(uuid "23eac778-ff95-46a8-bb74-0a187ab304a3")
+			(uuid "69279048-0706-4d9e-99a4-35c6636634f0")
 		)
 		(pin "4"
-			(uuid "cbca88d1-f0df-4b48-97bd-63d28eae36f7")
+			(uuid "32f897bd-6c15-4cbd-8675-79a7692f73d9")
 		)
 		(pin "MP"
-			(uuid "39d19aba-111e-4912-ad1e-24fc6502b7f7")
+			(uuid "19b262b2-d713-4a56-a256-cc25c56da16f")
 		)
 		(instances
 			(project "hub_cam"
@@ -5121,7 +5569,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7ffb8b53-6861-451f-8f97-ebb72f885d19")
+		(uuid "bd0677f5-c2a4-4b96-99ea-28968adc3d86")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -5131,7 +5579,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "9477e262-52d9-45d8-a7e7-05d48fbdacf4")
+		(uuid "b766a66c-b2d5-42ec-b520-7f9cc37f8625")
 		(property "Reference" "#PWR21"
 			(at 220.98 77.47 0)
 			(effects
@@ -5177,7 +5625,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "45839475-b2b2-4dc9-b84e-ea2b1ca8bce9")
+			(uuid "64c1bc99-387c-4026-a0aa-b0411654c8b0")
 		)
 		(instances
 			(project "hub_cam"
@@ -5196,7 +5644,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0905bc39-d559-4e54-a1d2-0cdf73b6bb02")
+		(uuid "cbf24d37-c262-4900-8d6f-d542aa4f500e")
 	)
 	(label "CAM2_DM"
 		(at 220.98 81.28 180)
@@ -5206,7 +5654,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f1cbff4f-8a73-4520-8e0c-2dcf6603984c")
+		(uuid "af98fce4-978c-4b08-a0bd-13a55c7c2290")
 	)
 	(wire
 		(pts
@@ -5216,7 +5664,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "50b53e5b-beb5-463e-baff-e070763af21b")
+		(uuid "74417c22-213b-42fc-b10d-a7e75c52c138")
 	)
 	(label "CAM2_DP"
 		(at 220.98 83.82 180)
@@ -5226,7 +5674,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "dbab1c49-0a73-42d9-8f96-e011cb704e8e")
+		(uuid "53620558-13a1-4083-92a8-fc03203e16be")
 	)
 	(wire
 		(pts
@@ -5236,7 +5684,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c393c95b-7d72-42af-9846-9570fb5e26d1")
+		(uuid "7dd64bac-2738-4def-a588-0782f861a545")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -5246,7 +5694,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "00464099-38ab-43d3-91f4-3cf5e3a1a495")
+		(uuid "0f286683-e4cf-411a-9927-f84f0ff38931")
 		(property "Reference" "#PWR22"
 			(at 220.98 85.09 0)
 			(effects
@@ -5292,7 +5740,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7daeaf7c-6166-4dec-a547-8d64b3180ce6")
+			(uuid "5c214d7b-f20a-4da4-93d4-538b202216a7")
 		)
 		(instances
 			(project "hub_cam"
@@ -5311,7 +5759,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c65a7da2-7607-439a-9b58-7a124cc630b7")
+		(uuid "66a98d6e-4018-4360-b9db-55702211dd75")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -5321,7 +5769,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "0882e495-5dab-40a6-b3df-eb92364aa547")
+		(uuid "81c7a416-272d-401c-bed2-7ab6fa3bf122")
 		(property "Reference" "#PWR23"
 			(at 231.14 92.71000000000001 0)
 			(effects
@@ -5367,12 +5815,652 @@
 			)
 		)
 		(pin "1"
-			(uuid "12fda553-5cbb-49d9-9acc-59adea4e0c90")
+			(uuid "06453bb6-ca4b-4059-b65a-1d1c5cabc4ee")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
 					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hubcam:USBLC6-2SC6")
+		(at 157.48 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3db7d9f1-2b94-497d-bb3f-d2a3650ecf47")
+		(property "Reference" "U2"
+			(at 161.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7519"
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfbdefa2-0f20-4998-b7d0-b09fad86b905")
+		)
+		(pin "3"
+			(uuid "2757137d-361f-47f5-acde-01652b83e30d")
+		)
+		(pin "5"
+			(uuid "19655b9f-9629-4c01-9552-9c581bed3e3a")
+		)
+		(pin "2"
+			(uuid "02817f43-f586-4f3a-8316-53a1235e6c4f")
+		)
+		(pin "6"
+			(uuid "a82aa66d-b45c-45cb-9943-3f7132c777f7")
+		)
+		(pin "4"
+			(uuid "ded95046-36fc-4791-8ef9-33c086b90f6d")
+		)
+		(instances
+			(project "hub_cam"
+				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8134d56d-4cea-41ed-ab01-10a604e6916c")
+	)
+	(label "CAM1_DM"
+		(at 149.86 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88321170-ceff-46e4-afd5-7a7f8cfefcda")
+	)
+	(wire
+		(pts
+			(xy 162.56 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42f089c-86ba-49fa-af2a-d2ff8ad0e644")
+	)
+	(label "CAM1_DM"
+		(at 165.1 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d00480c-dfca-434b-8744-c95082916b80")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134dbdff-880a-4b7a-8e85-6758dc74d87c")
+	)
+	(label "CAM1_DP"
+		(at 149.86 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ded66b70-550b-472c-9793-e2449a0c65ce")
+	)
+	(wire
+		(pts
+			(xy 162.56 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da7e8b2-ec84-492e-bcae-514b3feb80ee")
+	)
+	(label "CAM1_DP"
+		(at 165.1 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4922e0d9-f7c3-43b0-a524-d8fcae060927")
+	)
+	(wire
+		(pts
+			(xy 157.48 40.64) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8145d6bf-f978-455c-bb4a-3c87d4577022")
+	)
+	(symbol
+		(lib_id "hubcam:+5V")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "770e867f-f76b-4534-be74-f8fe9bccbbc4")
+		(property "Reference" "#PWR24"
+			(at 160.01999999999998 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c067cd1-b63d-47fa-8a7d-2ca0a89a3c3c")
+		)
+		(instances
+			(project "hub_cam"
+				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
+					(reference "#PWR24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0cbd55-d1c0-47cd-83ae-651645c561ad")
+	)
+	(symbol
+		(lib_id "hubcam:GND")
+		(at 157.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "494a9947-30ae-4f66-98ba-f7a361031e23")
+		(property "Reference" "#PWR25"
+			(at 160.01999999999998 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80d53776-3364-41e0-8ca4-5a148c697794")
+		)
+		(instances
+			(project "hub_cam"
+				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
+					(reference "#PWR25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hubcam:USBLC6-2SC6")
+		(at 185.42 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df837ed7-77f8-49ce-80db-dacc8b92e1fe")
+		(property "Reference" "U3"
+			(at 189.23 59.690000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7519"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66e77da7-5143-4baf-ac93-1c4cb9ad6bb4")
+		)
+		(pin "3"
+			(uuid "978d9988-4424-4bf4-9f5d-6b031237073b")
+		)
+		(pin "5"
+			(uuid "70724ab2-65c9-42f4-bf97-c6c0c185c189")
+		)
+		(pin "2"
+			(uuid "0609afe5-ee73-452f-9b12-7ca879594cfc")
+		)
+		(pin "6"
+			(uuid "e8935c99-d39f-4ce1-b412-b760fd39c8b5")
+		)
+		(pin "4"
+			(uuid "f705b7c7-e527-48a5-b8f8-a894d4afc6e6")
+		)
+		(instances
+			(project "hub_cam"
+				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 180.34 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cffc720-5f9d-4116-91e1-9c698a86737a")
+	)
+	(label "CAM2_DM"
+		(at 177.8 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "626cc63c-1a6e-4161-a3f8-7d6a57f4652d")
+	)
+	(wire
+		(pts
+			(xy 190.5 66.04) (xy 193.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6400bcd-cf7e-442b-8381-1b59e1aa707c")
+	)
+	(label "CAM2_DM"
+		(at 193.04 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2af9984-fc2b-423c-874d-5afbd7e24064")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2627fe-81b0-42a0-9031-88189ee5059e")
+	)
+	(label "CAM2_DP"
+		(at 177.8 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b11fa5a-c6d3-4dbb-810a-449af18d9a51")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 193.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d277ba-fd7a-4cec-be7b-dfeb94ecb6f1")
+	)
+	(label "CAM2_DP"
+		(at 193.04 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cf8daaa-1f4b-40b4-b2fd-f3bf8003cc09")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a9ec11-4d8c-4fec-910c-8125938bf0ed")
+	)
+	(symbol
+		(lib_id "hubcam:+5V")
+		(at 185.42 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "8c508870-9050-4882-959a-5078771e9906")
+		(property "Reference" "#PWR26"
+			(at 187.95999999999998 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b73289a-59c0-4c47-800e-0c42e3e546eb")
+		)
+		(instances
+			(project "hub_cam"
+				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
+					(reference "#PWR26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 185.42 73.66) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b4cfe9-b684-42dc-8625-30b37aec0451")
+	)
+	(symbol
+		(lib_id "hubcam:GND")
+		(at 185.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "37ee313c-5213-46bc-ba04-805356138cb6")
+		(property "Reference" "#PWR27"
+			(at 187.95999999999998 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be7122e2-81dd-4b73-9fa8-65551d69d3e3")
+		)
+		(instances
+			(project "hub_cam"
+				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -5386,7 +6474,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e94af813-f95f-441c-a475-c2cd0a1f3e34")
+		(uuid "aafaa160-e5c3-4b50-9b36-6b583ff20d27")
 		(property "Reference" "J1"
 			(at 226.06 110.49000000000001 0)
 			(effects
@@ -5442,16 +6530,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fce6bdc-196d-4e82-a1b7-b8ac94fa7a1e")
+			(uuid "5bd66b84-e3a8-43c2-8cbb-5f16b65c00ab")
 		)
 		(pin "2"
-			(uuid "dc7c1125-f420-4a66-a8eb-a631c2310284")
+			(uuid "dff6aa84-0b41-4017-b3aa-996d6a930601")
 		)
 		(pin "3"
-			(uuid "500d760f-278a-478a-b537-70f822ceacbb")
+			(uuid "07837175-da41-46a8-88f4-93bff7194c98")
 		)
 		(pin "4"
-			(uuid "6bb49655-5984-42d0-adf0-228ac242dbd8")
+			(uuid "f44a4b83-666b-46f0-8892-ef10331c3719")
 		)
 		(instances
 			(project "hub_cam"
@@ -5470,7 +6558,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1451a7a7-d6fc-40a8-a212-e14843ef11f8")
+		(uuid "8574e48b-b2f2-439b-b2af-f4a9effced77")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -5480,8 +6568,8 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "96dafbe1-1fc4-4632-977a-cae097e6d894")
-		(property "Reference" "#PWR24"
+		(uuid "4de72732-7e5a-4f18-8432-333a64a9226f")
+		(property "Reference" "#PWR28"
 			(at 220.98 113.03 0)
 			(effects
 				(font
@@ -5526,12 +6614,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6904e33-2d69-4ffc-8db0-2f8e29cce4f0")
+			(uuid "11e5fe54-0ec2-4912-bc06-afaf5b66f573")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
-					(reference "#PWR24")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -5545,7 +6633,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "df81c2c4-dfac-4fc3-b751-ebc8440840ab")
+		(uuid "29f612c6-a012-40b4-be0b-2a62529d23a5")
 	)
 	(label "IMU_DM"
 		(at 220.98 116.84 180)
@@ -5555,7 +6643,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a6a969cd-b202-4847-b1fc-72b7c9926609")
+		(uuid "77c748d9-98aa-4ef4-90ba-02ec391af2c5")
 	)
 	(wire
 		(pts
@@ -5565,7 +6653,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8c1180d7-1514-43a0-87e6-c041f9aabf46")
+		(uuid "4b5d4fc9-69f2-4ad9-892f-e27400c97136")
 	)
 	(label "IMU_DP"
 		(at 220.98 119.38 180)
@@ -5575,7 +6663,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "663dd6ec-82ea-4758-8bcd-35381cf11321")
+		(uuid "24adb697-6eff-421e-b07a-40627c14d2ed")
 	)
 	(wire
 		(pts
@@ -5585,7 +6673,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5e7b102c-9b15-4fa5-9ab2-aa0c1b9c49e6")
+		(uuid "2571a50c-e7b9-4c2b-b47f-fb676d173747")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -5595,8 +6683,8 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "123df8e8-b0fa-4da2-b88d-94ef0b480ed1")
-		(property "Reference" "#PWR25"
+		(uuid "fc05ae35-9130-4237-af63-0c71446f5011")
+		(property "Reference" "#PWR29"
 			(at 220.98 120.65 0)
 			(effects
 				(font
@@ -5641,12 +6729,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5b931a6-1582-405a-8da7-83cb4d912cbe")
+			(uuid "377942e8-384c-45ee-9152-8e6a4ca768bb")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
-					(reference "#PWR25")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -5660,7 +6748,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "df2ad9be-3650-45b5-bf40-87698ce52eb1")
+		(uuid "2ac9ec87-38fd-4022-8c85-714a44688c39")
 		(property "Reference" "J4"
 			(at 48.26 130.81 0)
 			(effects
@@ -5716,7 +6804,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6547c137-e2d2-45f2-96f6-d172c5b4e9b0")
+			(uuid "d9f8fe50-5611-4aee-9b86-3403c685d0f5")
 		)
 		(instances
 			(project "hub_cam"
@@ -5735,7 +6823,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "813c969f-b2a1-40b0-8e97-d1fdcfa51c92")
+		(uuid "6682da8a-780a-4bd6-8d56-4ca49ac088eb")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -5745,8 +6833,8 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "45d54c32-73bb-41ba-9093-1e661918c8bf")
-		(property "Reference" "#PWR26"
+		(uuid "eb77432f-26ce-406e-932f-ebd292183387")
+		(property "Reference" "#PWR30"
 			(at 38.1 130.81 0)
 			(effects
 				(font
@@ -5791,12 +6879,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4804d2e2-829c-4942-9948-323c9a3ae656")
+			(uuid "158cb96b-4ece-473a-82cb-56976e25a1dd")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
-					(reference "#PWR26")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -5810,7 +6898,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2e28dbf-86cd-4afb-9ffa-b99389f44789")
+		(uuid "f30d4e9b-2577-4d10-b14b-110fd0dcea66")
 		(property "Reference" "J5"
 			(at 48.26 140.97 0)
 			(effects
@@ -5866,7 +6954,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "60203ad7-f5d3-440a-b5d5-0f91cd30590d")
+			(uuid "caa6580f-be0a-42d1-b779-be4093abd0ec")
 		)
 		(instances
 			(project "hub_cam"
@@ -5885,7 +6973,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "25112c94-ea1c-4ab8-83c2-66a4f1399856")
+		(uuid "3715b9c8-dde9-428a-af7f-56d45eb99672")
 	)
 	(label "HOST_DM"
 		(at 35.56 142.24 180)
@@ -5895,7 +6983,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f768e9fc-3941-4ffa-b150-227f263c6aa8")
+		(uuid "12fc3f16-f486-4b28-8f61-821cad410e8f")
 	)
 	(symbol
 		(lib_id "hubcam:Conn_01x01")
@@ -5905,7 +6993,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2fe8c0f8-592a-4101-9679-f577791edd07")
+		(uuid "f3efed0b-f0f8-4886-b8d3-d324ec665e7c")
 		(property "Reference" "J6"
 			(at 48.26 151.13 0)
 			(effects
@@ -5961,7 +7049,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "203b2832-5944-4158-8b20-71bb824b6790")
+			(uuid "6b87ea8a-ee0c-4668-b006-c281d95e0cc3")
 		)
 		(instances
 			(project "hub_cam"
@@ -5980,7 +7068,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1efe48aa-5cee-420b-a9f4-7a7babcd1ee4")
+		(uuid "7f51b2cc-775e-4a6a-b7ee-014d80c9b961")
 	)
 	(label "HOST_DP"
 		(at 35.56 152.4 180)
@@ -5990,7 +7078,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "240c6e8d-b4d7-4879-a25b-91d61bf05b70")
+		(uuid "02fdc5eb-d175-4ea0-8149-1cb49a3c782f")
 	)
 	(symbol
 		(lib_id "hubcam:Conn_01x01")
@@ -6000,7 +7088,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc8a3670-c6de-4375-802c-6e36ae7928d8")
+		(uuid "f13c8b7f-8f87-42c6-84c0-cda1e48a0544")
 		(property "Reference" "J7"
 			(at 48.26 161.29 0)
 			(effects
@@ -6056,7 +7144,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "353ef939-fb75-4812-8bba-c8eafef645a6")
+			(uuid "511602ab-fbbc-4cde-8f2b-999d6f43ec9c")
 		)
 		(instances
 			(project "hub_cam"
@@ -6075,7 +7163,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "485b0864-0364-4874-b145-336c5664e63d")
+		(uuid "01c6df48-5520-44cd-9e43-16fd3b77517a")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -6085,8 +7173,8 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "434df35b-4f49-4965-88c3-370c5af7b91f")
-		(property "Reference" "#PWR27"
+		(uuid "ca389226-a5bf-43cf-af47-4e5d58e399d2")
+		(property "Reference" "#PWR31"
 			(at 38.1 161.29 0)
 			(effects
 				(font
@@ -6131,12 +7219,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "608d6959-aebc-4bb8-9bb6-fd8edd781ab1")
+			(uuid "20d2ca3d-fba0-47ad-b0b7-cb92a4493aa2")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
-					(reference "#PWR27")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -6150,7 +7238,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "69df4176-37ec-4d8b-b846-b057a33247a1")
+		(uuid "e1d1f64f-ea79-4486-9558-5e4489fdd702")
 		(property "Reference" "#FLG01"
 			(at 33.02 184.14999999999998 0)
 			(effects
@@ -6196,7 +7284,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0fec07cb-8a58-41f8-b12e-41541e6dcbf3")
+			(uuid "293b1706-24fc-46f9-8c44-0911d84a1b05")
 		)
 		(instances
 			(project "hub_cam"
@@ -6215,7 +7303,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "60647901-71d4-484e-aecb-5377b7fc37ba")
+		(uuid "927b6735-2012-4399-8e0c-071bf5e205df")
 	)
 	(wire
 		(pts
@@ -6225,7 +7313,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a2fae499-ca38-4717-8f41-cce5e35c12ff")
+		(uuid "41e8c69d-ae3e-48c0-9fd6-2118d4c316b0")
 	)
 	(symbol
 		(lib_id "hubcam:+5V")
@@ -6235,8 +7323,8 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "4c56bbb4-9b0b-4e2a-9926-29e9e29cb28e")
-		(property "Reference" "#PWR28"
+		(uuid "68c54043-d05a-4799-9839-3e2dc7eb7278")
+		(property "Reference" "#PWR32"
 			(at 27.939999999999998 189.23 0)
 			(effects
 				(font
@@ -6281,12 +7369,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc092384-c785-4f65-8b49-ddd516ee800b")
+			(uuid "a935037d-21f7-48e8-b3ac-e26c59449b00")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
-					(reference "#PWR28")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -6300,7 +7388,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "9b8903ff-c058-4e68-b67a-c36805f475c6")
+		(uuid "3cae129b-871d-497f-8db8-b2e0a482c8e6")
 		(property "Reference" "#FLG02"
 			(at 43.18 184.14999999999998 0)
 			(effects
@@ -6346,7 +7434,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f68c5d0f-6a20-4e64-b38a-0fa6650d8a5d")
+			(uuid "afdeb62f-225f-4940-9094-ff05d42288c9")
 		)
 		(instances
 			(project "hub_cam"
@@ -6365,7 +7453,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "46cd7efc-ac6c-4d37-b637-6610cbb48d19")
+		(uuid "7e4a95c1-a570-47ac-bb70-e2d891de7d0e")
 	)
 	(symbol
 		(lib_id "hubcam:GND")
@@ -6375,8 +7463,8 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "70623b1f-25bf-44ea-a743-96713f5dbf9a")
-		(property "Reference" "#PWR29"
+		(uuid "d33eed1c-cc58-4d80-9498-c9b71fe7a547")
+		(property "Reference" "#PWR33"
 			(at 43.18 189.23 0)
 			(effects
 				(font
@@ -6421,12 +7509,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb495a98-fc41-4b99-a22c-ac1c81f10a8b")
+			(uuid "dbf0c7ee-ae22-4d04-b257-e45389067d9e")
 		)
 		(instances
 			(project "hub_cam"
 				(path "/7c1e4b2a-9d3f-4a6e-8b5c-2f0a1d9e3c47"
-					(reference "#PWR29")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -6441,9 +7529,9 @@
 			)
 			(justify left top)
 		)
-		(uuid "47e6f088-7f53-4ff4-9594-d77559aebd42")
+		(uuid "cd757cd3-b0ad-4a19-b103-daca4ee877ae")
 	)
-	(text "Port map: 1 = CAM1 (J2), 2 = CAM2 (J3), 3 = IMU (J1), 4 unused.\nCamera/IMU pin order: 1 VBUS, 2 D-, 3 D+, 4 GND (J1 matches hub_imu J1)."
+	(text "Port map: 1 = CAM1 (J2), 2 = CAM2 (J3), 3 = IMU (J1), 4 unused.\nCamera/IMU pin order: 1 VBUS, 2 D-, 3 D+, 4 GND (J1 matches hub_imu J1).\nU2/U3 USBLC6-2SC6: ESD at the camera connectors; route D-/D+ through pins 1-6 / 3-4."
 		(exclude_from_sim no)
 		(at 165.1 22.86 0)
 		(effects
@@ -6452,7 +7540,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "19b7de0e-c8fe-4d1e-8700-c91d54cbba60")
+		(uuid "50fef14f-7d4e-4bf3-b731-e510cd9f3b3b")
 	)
 	(text "Host cable: J4/J7 1.7 mm holes for 16-18 AWG power, J5/J6 0.65 mm holes for data."
 		(exclude_from_sim no)
@@ -6463,7 +7551,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "9e1aa7b0-576e-422a-9f31-9c1e0c67f7e7")
+		(uuid "5777b4ec-af14-44e1-ad95-138aa887f79b")
 	)
 	(sheet_instances
 		(path "/"
